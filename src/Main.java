@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String notas = "10 20 30 40 50";
+        Promedio prom = new Promedio();
+        System.out.println(prom.notas(notas));
     }
 }

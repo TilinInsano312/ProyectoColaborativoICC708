@@ -19,4 +19,8 @@ public class Promedio {
         }
         return promedio/notas.size();
     }
+
+    public void imprimirPromedio(String notas){
+        System.out.println(calcularPromedio(notas(notas)));
+    }
 }

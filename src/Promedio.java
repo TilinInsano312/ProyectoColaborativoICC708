@@ -11,4 +11,12 @@ public class Promedio {
         }
         return lista;
     }
+
+    public Double calcularPromedio(List<Double> notas){
+        Double promedio = 0.0;
+        for (Double nota : notas) {
+          promedio += nota;
+        }
+        return promedio/notas.size();
+    }
 }

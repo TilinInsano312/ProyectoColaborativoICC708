@@ -3,7 +3,7 @@ import java.util.List;
 public class Promedio {
     public Promedio() {
     }
-    public List notas(String notas){
+    public List<Double> notas(String notas){
         List<Double> lista = new ArrayList<>();
         String[] array = notas.split(" ");
         for (String s : array) {
